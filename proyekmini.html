@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head><title>Biodata Mahasiswa</title></head>
+<body>
+    <header><h1>Biodata Mahasiswa</h1></header>
+    <nav>
+        <a href="#">index.html</a>
+        <a href="#">biodata</a>
+        <a href="#">Form</a>
+    </nav>
+    <main>
+        <section id="biodata">
+            <h2>Data Mahasiswa</h2>
+            <table border="1">
+                <tr><th>NIM</th><th>Nama</th><th>Program Studi</th></tr>
+                <tr><td>312510015</td><td>Riksa</td><td>Teknik Informatika</td></tr>
+                <tr><td>312510016</td><td>Siddiq</td><td>Teknik Informatika</td></tr>
+                <tr><td>312510017</td><td>Alrizki</td><td>Teknik Informatika</td></tr>
+            </table>
+        </section>  
+<section id="form">
+    <h2>Form Biodata</h2>   
+    <form>
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text" id="nama" name="nama" required><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="prodi">Program Studi</label><br>
+        <select id="prodi" name="prodi" required>
+            <option value="">Pilih Program Studi</option>
+            <option value="TI">Teknik Informatika</option>
+            <option value="SI">Sistem Informasi</option>
+        </select>
+        <br><br>
+        <label for="alamat">Alamat</label><br>
+        <textarea id="alamat" name="alamat" required></textarea><br>
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Teknik Informatika</p>
+    </footer>
+</body>
+</html>
