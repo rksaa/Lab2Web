@@ -10,17 +10,9 @@ Program Studi: Teknik Informatika
 
 Praktikum ini membahas HTML tingkat lanjut, yaitu tabel, form, validasi form, semantic HTML, dan multimedia (audio). Seluruh file dibuat dengan HTML murni dan dibuka langsung melalui browser.
 
-## Struktur Folder
 
-```
-praktikum-2-html-lanjutan/
-├── index.html
-└── media/
-    ├── audio.mp3
-    └── video.mp4
-```
 
-## Langkah-langkah Praktikum
+## penjelasan Praktikum
 
 ### 1. Membuat Tabel Data Mahasiswa
 
